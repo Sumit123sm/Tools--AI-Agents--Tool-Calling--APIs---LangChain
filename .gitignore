@@ -1,0 +1,50 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build / packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Local vector database and generated retrieval data
+chroma_db/
+chroma-db/
+
+# Streamlit local settings/cache
+.streamlit/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Generated documentation not needed in source upload
+readme2.md
+image.png
+
+# Optional: ignore large local source docs (uncomment if needed)
+# *.pdf
+# *.docx
